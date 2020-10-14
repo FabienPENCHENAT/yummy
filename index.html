@@ -1,0 +1,49 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<title>Yummy</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"/>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+<link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
+<link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
+
+<link rel="stylesheet" href="static/css/foodtruck.css">
+<script src="static/js/foodtruck.js"></script>
+
+</head>
+
+<body>
+	<!-- Navigation -->
+	<nav class="fixed-top navbar navbar-expand navbar-light bg-dark shadow">
+		<img id="brand" class="mr-2" src="./static/icon/food-truck.png" alt="Food Truck">
+		<a class="navbar-brand" href="#">YUMMY</a>
+		<button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+		    	<span class="navbar-toggler-icon"></span>
+		 	</button>
+		<div class="collapse navbar-collapse" id="navbarNavDropdown">
+		    <ul class="navbar-nav ml-auto py-2">
+		    	<li class="nav-item dropdown">
+				    <select class="form-control" id="selectLocation" onchange="updateFootruck()"></select>
+			    </li>
+			</ul>
+		</div>
+	</nav>
+
+	<!-- Page Content -->
+	<div id="container" class="foodtruck-content"></div>
+		
+	<div class="footer">
+		<div class="text-light text-center m-4">
+			Plats végétariens <i class="fas fa-carrot ml-2"></i>
+		</div>
+	</div>
+
+</body>
+</html>

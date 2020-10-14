@@ -1,0 +1,71 @@
+[{
+		"location" : "Ramassiers",
+		"foodtruck" : [ {
+			"name" : "Miam Thai",
+			"type" : "chinese-food",
+			"com" : "",
+			"vegan" : "",
+			"day" : "Lundi",
+			"website" : "https://www.miamthai.com"
+		}, {
+			"name" : "Madame en route",
+			"type" : "menu",
+			"com" : "",
+			"vegan" : "true",
+			"day" : "Mardi",
+			"website" : "https://www.madameenroute.com"
+		}, {
+			"name" : "Le CamiHong",
+			"type" : "noodles",
+			"com" : "",
+			"vegan" : "",
+			"day" : "Mercredi",
+			"website" : "https://www.camihong.com"
+		}, {
+			"name" : "L'epicurieux",
+			"type" : "burger",
+			"com" : "",
+			"vegan" : "true",
+			"day" : "Jeudi",
+			"website" : "https://www.lepicurieux.net"
+		}, {
+			"name" : "Kumquat",
+			"type" : "chinese-food",
+			"com" : "",
+			"vegan" : "",
+			"day" : "Tous les jours",
+			"website" : "https://www.kumquat-blagnac.fr"
+		}]
+	},{
+		"location" : "Colomier 1",
+		"foodtruck" : [ {
+			"name" : "Test Thai",
+			"type" : "chinese-food",
+			"com" : "",
+			"vegan" : "",
+			"day" : "Lundi",
+			"website" : "https://www.miamthai.com"
+		}, {
+			"name" : "Test en route",
+			"type" : "menu",
+			"com" : "",
+			"vegan" : "true",
+			"day" : "Mercredi",
+			"website" : "https://www.madameenroute.com"
+		}, {
+			"name" : "Le Test",
+			"type" : "noodles",
+			"com" : "",
+			"vegan" : "",
+			"day" : "Mercredi",
+			"website" : "https://www.camihong.com"
+		}, {
+			"name" : "Test",
+			"type" : "burger",
+			"com" : "",
+			"vegan" : "true",
+			"day" : "Jeudi",
+			"website" : "https://www.lepicurieux.net"
+		}]
+	}
+]
