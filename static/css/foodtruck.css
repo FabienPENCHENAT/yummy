@@ -40,16 +40,18 @@ body {
 	line-height: 1;
 	letter-spacing: 2px;
 	text-transform: uppercase;
-	color: white ! important;
 	
     writing-mode: vertical-rl;
     text-orientation: mixed;
     transform: rotate(180deg);
+    
+    margin-left: -33px;
+	color: #EAA995 ! important;
 }
 
 .card {
 	background-color: rgba(189, 189, 189, 0.3);
-	border-left: 3px solid #fff ! important;
+	border-left: 30px solid #fff ! important;
 	border-radius: 5px;
 	border: 0;
 }
@@ -101,7 +103,6 @@ body {
 	margin-bottom: 30px;
 	text-shadow: 2px 3px 0px #898999;
 	line-height: 1.2;
-	color: white;
 }
 
 .website {
