@@ -73,7 +73,7 @@ body {
 		"Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
 		"Noto Color Emoji";
 	font-weight: 900;
-	font-size: 2.25em;
+	font-size: 2em;
 	margin-bottom: 30px;
 	text-shadow: 2px 3px 0px #898999;
 	line-height: 1.2;
@@ -85,7 +85,7 @@ body {
 		"Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif,
 		"Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
 		"Noto Color Emoji";
-	font-size: 1.25em;
+	font-size: 1em;
 }
 
 .col {
@@ -121,17 +121,16 @@ a {
 
 .type {
 	width: 6rem;
-	margin-right: 1.5rem;
 }
 
-@media ( max-width: 550px) {
+@media ( max-width: 460px) {
 	.toto {
 		height: 4rem ! important;
 	}
 }
-@media ( min-width: 551px) {
+@media ( min-width: 461px) {
 	.toto {
-		height: 7rem ! important;
+		height: 6rem ! important;
 	}
 }
 
