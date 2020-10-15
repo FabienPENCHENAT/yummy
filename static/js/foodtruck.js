@@ -4,7 +4,8 @@ var valMS = [{
 			"name" : "Miam Thai",
 			"type" : "chinese-food",
 			"com" : "",
-			"num" : "",
+			"num" : "07 71 57 85 41",
+			"address" : "37 Chemin des Ramassiers",
 			"vegan" : "",
 			"day" : "Lundi",
 			"website" : "https://www.miamthai.com"
@@ -12,7 +13,8 @@ var valMS = [{
 			"name" : "Madame en route",
 			"type" : "menu",
 			"com" : "",
-			"num" : "",
+			"num" : "06 33 73 69 38",
+			"address" : "37 Chemin des Ramassiers",
 			"vegan" : "true",
 			"day" : "Mardi",
 			"website" : "https://www.madameenroute.com"
@@ -20,7 +22,8 @@ var valMS = [{
 			"name" : "Le CamiHong",
 			"type" : "noodles",
 			"com" : "",
-			"num" : "",
+			"num" : "07 83 60 21 24",
+			"address" : "37 Chemin des Ramassiers",
 			"vegan" : "",
 			"day" : "Mercredi",
 			"website" : "https://www.camihong.com"
@@ -28,7 +31,8 @@ var valMS = [{
 			"name" : "L'epicurieux",
 			"type" : "burger",
 			"com" : "",
-			"num" : "",
+			"num" : "07 82 31 92 09",
+			"address" : "37 Chemin des Ramassiers",
 			"vegan" : "true",
 			"day" : "Jeudi",
 			"website" : "https://www.lepicurieux.net"
@@ -37,6 +41,7 @@ var valMS = [{
 			"type" : "chinese-food",
 			"com" : "",
 			"num" : "",
+			"address" : "37 Chemin des Ramassiers",
 			"vegan" : "",
 			"day" : "Tous les jours",
 			"website" : "https://www.kumquat-blagnac.fr"
@@ -48,6 +53,7 @@ var valMS = [{
 			"type" : "hot-dog",
 			"com" : "",
 			"num" : "",
+			"address" : "",
 			"vegan" : "",
 			"day" : "Lundi",
 			"website" : ""
@@ -56,6 +62,7 @@ var valMS = [{
 			"type" : "burger",
 			"com" : "",
 			"num" : "",
+			"address" : "",
 			"vegan" : "",
 			"day" : "Lundi",
 			"website" : ""
@@ -64,6 +71,7 @@ var valMS = [{
 			"type" : "",
 			"com" : "",
 			"num" : "",
+			"address" : "",
 			"vegan" : "",
 			"day" : "Mardi",
 			"website" : ""
@@ -72,6 +80,7 @@ var valMS = [{
 			"type" : "noodles",
 			"com" : "",
 			"num" : "",
+			"address" : "",
 			"vegan" : "",
 			"day" : "Mardi",
 			"website" : ""
@@ -80,6 +89,7 @@ var valMS = [{
 			"type" : "chinese-food",
 			"com" : "",
 			"num" : "",
+			"address" : "",
 			"vegan" : "",
 			"day" : "Mercredi",
 			"website" : ""
@@ -88,6 +98,7 @@ var valMS = [{
 			"type" : "menu",
 			"com" : "",
 			"num" : "",
+			"address" : "",
 			"vegan" : "",
 			"day" : "Mercredi",
 			"website" : ""
@@ -96,6 +107,7 @@ var valMS = [{
 			"type" : "burger",
 			"com" : "",
 			"num" : "",
+			"address" : "",
 			"vegan" : "true",
 			"day" : "Jeudi",
 			"website" : "https://www.lepicurieux.net"
@@ -104,6 +116,7 @@ var valMS = [{
 			"type" : "shawarma",
 			"com" : "",
 			"num" : "",
+			"address" : "",
 			"vegan" : "",
 			"day" : "Jeudi",
 			"website" : ""
@@ -112,6 +125,7 @@ var valMS = [{
 			"type" : "burger",
 			"com" : "",
 			"num" : "",
+			"address" : "",
 			"vegan" : "",
 			"day" : "Vendredi",
 			"website" : ""
@@ -120,6 +134,7 @@ var valMS = [{
 			"type" : "burger",
 			"com" : "",
 			"num" : "",
+			"address" : "",
 			"vegan" : "",
 			"day" : "Vendredi",
 			"website" : ""
@@ -144,23 +159,6 @@ $(document).ready(function() {
 			content += '<div class="row justify-content-center">';
 		}
 
-//		content += '<div class="col">';
-//		content += '<div class="card m-2">';
-//		content += '<div class="card-header">';
-//		content += '<span class="text-uppercase title-name">' + v["name"];
-//		if(v["vegan"] == "true") {
-//			content += '<i class="fas fa-carrot ml-2"></i>';
-//		}
-//		content += '</span>';
-//		content += '<span class="float-right title-day">' + v["day"] + '</span>';
-//		content += '</div>';
-//		content += '<div class="card-body">';
-//		content += '<div class="' + v["type"] + '"></div>';
-//		content += '<br>';
-//		content += '<div class="text-center website"><a href="' + v["website"] + '" target="_blank">' + v["website"] +'</a></div>';
-//		content += '</div>';
-//		content += '</div>';
-//		content += '</div>';
 		content += '<div class="col m-2">';
 		content += '<div class="card border-left-primary h-100 py-2">';
 		content += '<div class="card-body">';
@@ -170,7 +168,13 @@ $(document).ready(function() {
 		content += '<span class="text-uppercase title-name ">' + v["name"] + '</span>';
 		content += '<span class="title-day "> - ' + v["day"] + '</span>';
 		content += '</div>';
-		content += '<div class="website"><a href="' + v["website"] + '" target="_blank">' + v["website"] +'</a></div>';
+		if(v["num"] != "") {
+			content += '<div class="text-light mt-1"><i class="fas fa-mobile-alt mr-2"></i>' + v["num"] + '</div>';
+		}
+		if(v["address"] != "") {
+			content += '<div class="text-light"><i class="fas fa-map-marker-alt mr-2"></i>' + v["address"] + '</div>';
+		}
+		content += '<div class="website mt-1"><a href="' + v["website"] + '" target="_blank">' + v["website"] +'</a></div>';
 		content += '</div>'
 		content += '<div class="col-auto w-25">';
 		content += '<div class="' + v["type"] + '"></div>';
@@ -210,7 +214,13 @@ function updateFootruck() {
 		content += '<span class="text-uppercase title-name ">' + v["name"] + '</span>';
 		content += '<span class="title-day "> - ' + v["day"] + '</span>';
 		content += '</div>';
-		content += '<div class="website"><a href="' + v["website"] + '" target="_blank">' + v["website"] +'</a></div>';
+		if(v["num"] != "") {
+			content += '<div class="text-light mt-1"><i class="fas fa-mobile-alt mr-2"></i>' + v["num"] + '</div>';
+		}
+		if(v["address"] != "") {
+			content += '<div class="text-light"><i class="fas fa-map-marker-alt mr-2"></i>' + v["address"] + '</div>';
+		}
+		content += '<div class="website mt-1"><a href="' + v["website"] + '" target="_blank">' + v["website"] +'</a></div>';
 		content += '</div>'
 		content += '<div class="col-auto w-25">';
 		content += '<div class="' + v["type"] + '"></div>';
