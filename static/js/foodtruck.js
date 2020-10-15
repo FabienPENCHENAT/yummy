@@ -168,7 +168,7 @@ $(document).ready(function() {
 			content += '<div class="row justify-content-center">';
 		}
 
-		content += '<div class="col-sm-12 col-md-6 my-2">';
+		content += '<div class="col-12 col-lg-6 my-2">';
 		content += '<div class="card border-left-primary h-100 py-2">';
 		content += '<div>';
 		content += '<div class="row no-gutters align-items-center">';
@@ -212,7 +212,7 @@ function updateFootruck() {
 			content += '<div class="row justify-content-center">';
 		}
 		
-		content += '<div class="col-sm-12 col-md-6 my-2">';
+		content += '<div class="col-12 col-lg-6 my-2">';
 		content += '<div class="card border-left-primary h-100 py-2">';
 		content += '<div>';
 		content += '<div class="row no-gutters align-items-center">';
