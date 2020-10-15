@@ -126,7 +126,7 @@ a {
 
 @media ( max-width: 640px) {
 	.toto {
-		height: 5rem ! important;
+		height: 4rem ! important;
 	}
 }
 @media ( min-width: 641px) {

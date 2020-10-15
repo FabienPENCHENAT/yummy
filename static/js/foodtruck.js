@@ -174,14 +174,14 @@ $(document).ready(function() {
 		content += '<div class="row no-gutters align-items-center">';
 		content += '<div class="col-1 mr-2 vertical">' + v["day"] + '</div>';
 		content += '<div class="col mr-2">';
-		content += '<div class="mb-1 ml-1"><span class="text-uppercase title-name ">' + v["name"] + '</span></div>';
+		content += '<div class="mb-1 ml-2"><span class="text-uppercase title-name ">' + v["name"] + '</span></div>';
 		if(v["num"] != "") {
-			content += '<div class="text-light mt-1 ml-1"><i class="fas fa-mobile-alt mr-2"></i>' + v["num"] + '</div>';
+			content += '<div class="text-light mt-1 ml-2"><i class="fas fa-mobile-alt mr-2"></i>' + v["num"] + '</div>';
 		}
 		if(v["address"] != "") {
-			content += '<div class="text-light ml-1"><i class="fas fa-map-marker-alt mr-2"></i>' + v["address"] + '</div>';
+			content += '<div class="text-light ml-2"><i class="fas fa-map-marker-alt mr-2"></i>' + v["address"] + '</div>';
 		}
-		content += '<div class="website mt-1 ml-1"><a href="' + v["website"] + '" target="_blank">' + v["website"] +'</a></div>';
+		content += '<div class="website mt-1 ml-2"><a href="' + v["website"] + '" target="_blank">' + v["website"] +'</a></div>';
 		content += '</div>'
 		content += '<div class="col-auto type">';
 		content += '<div class="toto ' + v["type"] + '"></div>';
@@ -218,14 +218,14 @@ function updateFootruck() {
 		content += '<div class="row no-gutters align-items-center">';
 		content += '<div class="col-1 mr-2 vertical">' + v["day"] + '</div>';
 		content += '<div class="col mr-2">';
-		content += '<div class="mb-1 ml-1"><span class="text-uppercase title-name ">' + v["name"] + '</span></div>';
+		content += '<div class="mb-1 ml-2"><span class="text-uppercase title-name ">' + v["name"] + '</span></div>';
 		if(v["num"] != "") {
-			content += '<div class="text-light mt-1 ml-1"><i class="fas fa-mobile-alt mr-2"></i>' + v["num"] + '</div>';
+			content += '<div class="text-light mt-1 ml-2"><i class="fas fa-mobile-alt mr-2"></i>' + v["num"] + '</div>';
 		}
 		if(v["address"] != "") {
-			content += '<div class="text-light ml-1"><i class="fas fa-map-marker-alt mr-2"></i>' + v["address"] + '</div>';
+			content += '<div class="text-light ml-2"><i class="fas fa-map-marker-alt mr-2"></i>' + v["address"] + '</div>';
 		}
-		content += '<div class="website mt-1 ml-1"><a href="' + v["website"] + '" target="_blank">' + v["website"] +'</a></div>';
+		content += '<div class="website mt-1 ml-2"><a href="' + v["website"] + '" target="_blank">' + v["website"] +'</a></div>';
 		content += '</div>'
 		content += '<div class="col-auto type">';
 		content += '<div class="toto ' + v["type"] + '"></div>';
