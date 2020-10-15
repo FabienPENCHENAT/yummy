@@ -184,7 +184,7 @@ $(document).ready(function() {
 		content += '<div class="website mt-1 ml-1"><a href="' + v["website"] + '" target="_blank">' + v["website"] +'</a></div>';
 		content += '</div>'
 		content += '<div class="col-auto type">';
-		content += '<div class="' + v["type"] + '"></div>';
+		content += '<div class="toto ' + v["type"] + '"></div>';
 		content += '</div>';
 		content += '</div>';
 		content += '</div>';
@@ -228,7 +228,7 @@ function updateFootruck() {
 		content += '<div class="website mt-1 ml-1"><a href="' + v["website"] + '" target="_blank">' + v["website"] +'</a></div>';
 		content += '</div>'
 		content += '<div class="col-auto type">';
-		content += '<div class="' + v["type"] + '"></div>';
+		content += '<div class="toto ' + v["type"] + '"></div>';
 		content += '</div>';
 		content += '</div>';
 		content += '</div>';
