@@ -37,6 +37,15 @@ var valMS = [{
 			"day" : "Jeudi",
 			"website" : "https://www.lepicurieux.net"
 		}, {
+			"name" : "So Piad'in",
+			"type" : "burrito",
+			"com" : "",
+			"num" : "06 64 51 64 05",
+			"address" : "37 Chemin des Ramassiers",
+			"vegan" : "true",
+			"day" : "Vendredi",
+			"website" : "http://www.sopiadin.fr/"
+		}, {
 			"name" : "Kumquat",
 			"type" : "chinese-food",
 			"com" : "",
