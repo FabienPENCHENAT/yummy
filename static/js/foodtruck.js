@@ -4,6 +4,7 @@ var valMS = [{
 			"name" : "Miam Thai",
 			"type" : "chinese-food",
 			"com" : "",
+			"num" : "",
 			"vegan" : "",
 			"day" : "Lundi",
 			"website" : "https://www.miamthai.com"
@@ -11,6 +12,7 @@ var valMS = [{
 			"name" : "Madame en route",
 			"type" : "menu",
 			"com" : "",
+			"num" : "",
 			"vegan" : "true",
 			"day" : "Mardi",
 			"website" : "https://www.madameenroute.com"
@@ -18,6 +20,7 @@ var valMS = [{
 			"name" : "Le CamiHong",
 			"type" : "noodles",
 			"com" : "",
+			"num" : "",
 			"vegan" : "",
 			"day" : "Mercredi",
 			"website" : "https://www.camihong.com"
@@ -25,6 +28,7 @@ var valMS = [{
 			"name" : "L'epicurieux",
 			"type" : "burger",
 			"com" : "",
+			"num" : "",
 			"vegan" : "true",
 			"day" : "Jeudi",
 			"website" : "https://www.lepicurieux.net"
@@ -32,40 +36,93 @@ var valMS = [{
 			"name" : "Kumquat",
 			"type" : "chinese-food",
 			"com" : "",
+			"num" : "",
 			"vegan" : "",
 			"day" : "Tous les jours",
 			"website" : "https://www.kumquat-blagnac.fr"
 		}]
 	},{
-		"location" : "Colomier 1",
-		"foodtruck" : [ {
-			"name" : "Test Thai",
-			"type" : "chinese-food",
+		"location" : "Basso Cambo",
+		"foodtruck" : [{
+			"name" : "Perritos",
+			"type" : "hot-dog",
 			"com" : "",
+			"num" : "",
 			"vegan" : "",
 			"day" : "Lundi",
-			"website" : "https://www.miamthai.com"
-		}, {
-			"name" : "Test en route",
-			"type" : "menu",
-			"com" : "",
-			"vegan" : "true",
-			"day" : "Mercredi",
-			"website" : "https://www.madameenroute.com"
-		}, {
-			"name" : "Le Test",
-			"type" : "noodles",
-			"com" : "",
-			"vegan" : "",
-			"day" : "Mercredi",
-			"website" : "https://www.camihong.com"
-		}, {
-			"name" : "Test",
+			"website" : ""
+		},{
+			"name" : "Les Mecs au Camion",
 			"type" : "burger",
 			"com" : "",
+			"num" : "",
+			"vegan" : "",
+			"day" : "Lundi",
+			"website" : ""
+		},{
+			"name" : "Chez Papilles",
+			"type" : "",
+			"com" : "",
+			"num" : "",
+			"vegan" : "",
+			"day" : "Mardi",
+			"website" : ""
+		},{
+			"name" : "Neko's",
+			"type" : "noodles",
+			"com" : "",
+			"num" : "",
+			"vegan" : "",
+			"day" : "Mardi",
+			"website" : ""
+		}, {
+			"name" : "O Tuk Tuk",
+			"type" : "chinese-food",
+			"com" : "",
+			"num" : "",
+			"vegan" : "",
+			"day" : "Mercredi",
+			"website" : ""
+		}, {
+			"name" : "Le Chant des papilles",
+			"type" : "menu",
+			"com" : "",
+			"num" : "",
+			"vegan" : "",
+			"day" : "Mercredi",
+			"website" : ""
+		}, {
+			"name" : "L'epicurieux",
+			"type" : "burger",
+			"com" : "",
+			"num" : "",
 			"vegan" : "true",
 			"day" : "Jeudi",
 			"website" : "https://www.lepicurieux.net"
+		}, {
+			"name" : "O Bey",
+			"type" : "shawarma",
+			"com" : "",
+			"num" : "",
+			"vegan" : "",
+			"day" : "Jeudi",
+			"website" : ""
+		}, {
+			"name" : "Pass' a la maison",
+			"type" : "burger",
+			"com" : "",
+			"num" : "",
+			"vegan" : "",
+			"day" : "Vendredi",
+			"website" : ""
+		}, {
+			"name" : "O Camion des saveurs",
+			"type" : "burger",
+			"com" : "",
+			"num" : "",
+			"vegan" : "",
+			"day" : "Vendredi",
+			"website" : ""
 		}]
 	}
 ], html;
