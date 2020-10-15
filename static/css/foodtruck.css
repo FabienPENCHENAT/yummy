@@ -30,6 +30,23 @@ body {
 	        animation: shake-horizontal 3s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite both;
 }
 
+.vertical {
+	font-family: "Saira Extra Condensed", -apple-system, BlinkMacSystemFont,
+		"Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif,
+		"Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+		"Noto Color Emoji";
+	font-weight: 900;
+	font-size: 2.25em;
+	line-height: 1;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	color: white ! important;
+	
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    transform: rotate(180deg);
+}
+
 .card {
 	background-color: rgba(189, 189, 189, 0.3);
 	border-left: 3px solid #fff ! important;
@@ -93,12 +110,17 @@ body {
 		"Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
 		"Noto Color Emoji";
 	font-weight: 500;
-	font-size: medium;
+	font-size: x-small;
 	font-family: italic;
 }
 
 a {
 	color: white ! important;
+}
+
+.type {
+	width: 6rem;
+	margin-right: 1.5rem;
 }
 
 .noodles {

@@ -52,7 +52,7 @@ var valMS = [{
 			"num" : "",
 			"address" : "37 Chemin des Ramassiers",
 			"vegan" : "",
-			"day" : "Tous les jours",
+			"day" : "every day",
 			"website" : "https://www.kumquat-blagnac.fr"
 		}]
 	},{
@@ -168,15 +168,13 @@ $(document).ready(function() {
 			content += '<div class="row justify-content-center">';
 		}
 
-		content += '<div class="col m-2">';
+		content += '<div class="col-sm-12 col-md-6 my-2">';
 		content += '<div class="card border-left-primary h-100 py-2">';
-		content += '<div class="card-body">';
+		content += '<div>';
 		content += '<div class="row no-gutters align-items-center">';
+		content += '<div class="col-1 mr-2 vertical">' + v["day"] + '</div>';
 		content += '<div class="col mr-2">';
-		content += '<div class="mb-1">';
-		content += '<span class="text-uppercase title-name ">' + v["name"] + '</span>';
-		content += '<span class="title-day "> - ' + v["day"] + '</span>';
-		content += '</div>';
+		content += '<div class="mb-1"><span class="text-uppercase title-name ">' + v["name"] + '</span></div>';
 		if(v["num"] != "") {
 			content += '<div class="text-light mt-1"><i class="fas fa-mobile-alt mr-2"></i>' + v["num"] + '</div>';
 		}
@@ -185,7 +183,7 @@ $(document).ready(function() {
 		}
 		content += '<div class="website mt-1"><a href="' + v["website"] + '" target="_blank">' + v["website"] +'</a></div>';
 		content += '</div>'
-		content += '<div class="col-auto w-25">';
+		content += '<div class="col-auto type">';
 		content += '<div class="' + v["type"] + '"></div>';
 		content += '</div>';
 		content += '</div>';
@@ -214,15 +212,13 @@ function updateFootruck() {
 			content += '<div class="row justify-content-center">';
 		}
 		
-		content += '<div class="col m-2">';
+		content += '<div class="col-sm-12 col-md-6 my-2">';
 		content += '<div class="card border-left-primary h-100 py-2">';
-		content += '<div class="card-body">';
+		content += '<div>';
 		content += '<div class="row no-gutters align-items-center">';
+		content += '<div class="col-1 mr-2 vertical">' + v["day"] + '</div>';
 		content += '<div class="col mr-2">';
-		content += '<div class="mb-1">';
-		content += '<span class="text-uppercase title-name ">' + v["name"] + '</span>';
-		content += '<span class="title-day "> - ' + v["day"] + '</span>';
-		content += '</div>';
+		content += '<div class="mb-1"><span class="text-uppercase title-name ">' + v["name"] + '</span></div>';
 		if(v["num"] != "") {
 			content += '<div class="text-light mt-1"><i class="fas fa-mobile-alt mr-2"></i>' + v["num"] + '</div>';
 		}
@@ -231,7 +227,7 @@ function updateFootruck() {
 		}
 		content += '<div class="website mt-1"><a href="' + v["website"] + '" target="_blank">' + v["website"] +'</a></div>';
 		content += '</div>'
-		content += '<div class="col-auto w-25">';
+		content += '<div class="col-auto type">';
 		content += '<div class="' + v["type"] + '"></div>';
 		content += '</div>';
 		content += '</div>';
