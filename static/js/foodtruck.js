@@ -199,7 +199,13 @@ $(document).ready(function() {
 		content += '<div class="card border-left-primary h-100 py-2">';
 		content += '<div>';
 		content += '<div class="row no-gutters align-items-center">';
-		content += '<div class="mr-2 vertical">' + v["day"] + '</div>';
+		content += '<div class="mr-2 vertical';
+		
+		if(v["day"] == day()) {
+			content += ' today';
+		}
+		
+		content += '">' + v["day"] + '</div>';
 		content += '<div class="col-8">';
 		content += '<div class="mb-1 ml-2"><span class="text-uppercase title-name ">' + v["name"] + '</span></div>';
 		if(v["num"] != "") {
@@ -243,7 +249,13 @@ function updateFootruck() {
 		content += '<div class="card border-left-primary h-100 py-2">';
 		content += '<div>';
 		content += '<div class="row no-gutters align-items-center">';
-		content += '<div class="mr-2 vertical">' + v["day"] + '</div>';
+		content += '<div class="mr-2 vertical';
+		
+		if(v["day"] == day()) {
+			content += ' today';
+		}
+		
+		content += '">' + v["day"] + '</div>';
 		content += '<div class="col-8">';
 		content += '<div class="mb-1 ml-2"><span class="text-uppercase title-name ">' + v["name"] + '</span></div>';
 		if(v["num"] != "") {
@@ -270,4 +282,10 @@ function updateFootruck() {
 	});
 	content += '</div>';
 	$('.foodtruck-content').html(content);
+}
+
+function day() {
+	var weekdays = new Array( "Dimanche", "Lundi", "Mardi", "Mercredi", "Jeudi", "Vendredi", "Samedi");
+	var today = new Date(); 
+	return weekdays[today.getDay()];
 }
