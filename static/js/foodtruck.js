@@ -147,6 +147,33 @@ var valMS = [{
 			"vegan" : "",
 			"day" : "Vendredi",
 			"website" : "http://www.ocamiondessaveurs.fr"
+		}, {
+			"name" : "Chez le Jacques",
+			"type" : "noodles",
+			"com" : "",
+			"num" : "07 81 18 44 64",
+			"address" : "Place edouard Bouillère",
+			"vegan" : "",
+			"day" : "every day",
+			"website" : ""
+		}, {
+			"name" : "Pizza Maestro",
+			"type" : "pizza",
+			"com" : "",
+			"num" : "05 61 40 63 72",
+			"address" : "Place edouard Bouillère",
+			"vegan" : "",
+			"day" : "every day",
+			"website" : ""
+		}, {
+			"name" : "Royal Burger",
+			"type" : "burger",
+			"com" : "",
+			"num" : "06 51 00 63 68",
+			"address" : "Place edouard Bouillère",
+			"vegan" : "",
+			"day" : "every day",
+			"website" : ""
 		}]
 	}
 ], html;
@@ -225,7 +252,9 @@ function updateFootruck() {
 		if(v["address"] != "") {
 			content += '<div class="text-light ml-2"><i class="fas fa-map-marker-alt mr-2"></i>' + v["address"] + '</div>';
 		}
-		content += '<div class="website mt-1 ml-2"><a href="' + v["website"] + '" target="_blank">' + v["website"] +'</a></div>';
+		if(v["website"] != "") {
+			content += '<div class="website mt-1 ml-2"><a href="' + v["website"] + '" target="_blank">' + v["website"] +'</a></div>';
+		}
 		content += '</div>'
 		content += '<div class="col-3 type">';
 		content += '<div class="toto ' + v["type"] + '"></div>';
