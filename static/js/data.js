@@ -5,6 +5,15 @@ function getData() {
 			    "location": "Europarc",
 			    "foodtruck": [
 			      {
+			        "name": "Les mecs au camion",
+			        "type": "burger",
+			        "com": "",
+			        "num": "07 85 66 75 16",
+			        "address": "5 Rue du Professeur Pierre Vellas",
+			        "vegan": "",
+			        "day": "Mardi",
+			        "website": "https://lesmecsaucamion.com/"
+			      },{
 			        "name": "Food du volant",
 			        "type": "menu",
 			        "com": "",
