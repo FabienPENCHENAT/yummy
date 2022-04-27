@@ -8,11 +8,21 @@ function getData() {
 			        "name": "Food du volant",
 			        "type": "menu",
 			        "com": "",
-			        "num": "06 72 70 19 35",
+			        "num": "09 69 39 99 15",
 			        "address": "5 Rue du Professeur Pierre Vellas",
 			        "vegan": "",
-			        "day": "Mercredi",
-			        "website": "https://fr-fr.facebook.com/lesfoodduvolant/"
+			        "day": "every day",
+			        "website": "https://www.classcroute.com/"
+			      },
+			      {
+			        "name": "Classcroute",
+			        "type": "menu",
+			        "com": "",
+			        "num": "",
+			        "address": "37 Chemin des Ramassiers",
+			        "vegan": "",
+			        "day": "every day",
+			        "website": "https://www.kumquat-blagnac.fr"
 			      }
 			    ]
 			  },{
