@@ -15,6 +15,16 @@ function getData() {
 			        "website": "https://www.classcroute.com/"
 			      },
 			      {
+			        "name": "La toque roulante",
+			        "type": "menu",
+			        "com": "",
+			        "num": "06 37 80 45 55",
+			        "address": "5 Rue du Professeur Pierre Vellas",
+			        "vegan": "",
+			        "day": "Mercredi",
+			        "website": "https://www.latoqueroulante.fr/s"
+			      },
+			      {
 			        "name": "Classcroute",
 			        "type": "menu",
 			        "com": "",
