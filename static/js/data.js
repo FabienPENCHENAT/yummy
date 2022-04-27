@@ -11,7 +11,7 @@ function getData() {
 			        "num": "09 69 39 99 15",
 			        "address": "5 Rue du Professeur Pierre Vellas",
 			        "vegan": "",
-			        "day": "every day",
+			        "day": "Mercredi",
 			        "website": "https://www.classcroute.com/"
 			      },
 			      {
