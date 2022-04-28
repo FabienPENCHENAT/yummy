@@ -48,9 +48,9 @@ function getData() {
 			        "type": "chinese-food",
 			        "com": "",
 			        "num": "07 50 58 33 74",
-			        "address": "Atrium",
+			        "address": "5 Rue du Professeur Pierre Vellas",
 			        "vegan": "",
-			        "day": "Lundi",
+			        "day": "Jeudi",
 			        "website": "https://www.miamthai.com"
 			      },
 			      {
