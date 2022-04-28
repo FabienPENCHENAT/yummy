@@ -13,7 +13,18 @@ function getData() {
 			        "vegan": "",
 			        "day": "Mardi",
 			        "website": "https://lesmecsaucamion.com/"
-			      },{
+			      },
+			      {
+			        "name": "Miam Thai",
+			        "type": "chinese-food",
+			        "com": "",
+			        "num": "07 50 58 33 74",
+			        "address": "5 Rue du Professeur Pierre Vellas",
+			        "vegan": "",
+			        "day": "Mardi",
+			        "website": "https://www.miamthai.com"
+			      },
+				    {
 			        "name": "Food du volant",
 			        "type": "menu",
 			        "com": "",
@@ -21,7 +32,7 @@ function getData() {
 			        "address": "5 Rue du Professeur Pierre Vellas",
 			        "vegan": "",
 			        "day": "Mercredi",
-			        "website": "https://www.classcroute.com/"
+			        "website": "https://fr-fr.facebook.com/lesfoodduvolant/"
 			      },
 			      {
 			        "name": "La toque roulante",
