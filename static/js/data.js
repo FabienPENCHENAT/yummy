@@ -31,7 +31,27 @@ function getData() {
 			        "address": "5 Rue du Professeur Pierre Vellas",
 			        "vegan": "",
 			        "day": "Mercredi",
-			        "website": "https://www.latoqueroulante.fr/s"
+			        "website": "https://www.latoqueroulante.fr/"
+			      },
+			      {
+			        "name": "La di la fé",
+			        "type": "menu",
+			        "com": "",
+			        "num": "07 66 00 40 56",
+			        "address": "5 Rue du Professeur Pierre Vellas",
+			        "vegan": "",
+			        "day": "Jeudi",
+			        "website": "https://fr-fr.facebook.com/ladilafe974/"
+			      },
+			      {
+			        "name": "Miam Thai",
+			        "type": "chinese-food",
+			        "com": "",
+			        "num": "07 50 58 33 74",
+			        "address": "Atrium",
+			        "vegan": "",
+			        "day": "Lundi",
+			        "website": "https://www.miamthai.com"
 			      },
 			      {
 			        "name": "Classcroute",
