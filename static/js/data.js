@@ -58,7 +58,7 @@ function getData() {
 			        "type": "menu",
 			        "com": "",
 			        "num": "",
-			        "address": "37 Chemin des Ramassiers",
+			        "address": "5 Rue du Professeur Pierre Vellas",
 			        "vegan": "",
 			        "day": "every day",
 			        "website": "https://www.kumquat-blagnac.fr"
