@@ -5,6 +5,15 @@ function getData() {
 			    "location": "Europarc",
 			    "foodtruck": [
 			      {
+			        "name": "Mets pause",
+			        "type": "menu",
+			        "com": "",
+			        "num": "",
+			        "address": "5 Rue du Professeur Pierre Vellas",
+			        "vegan": "",
+			        "day": "Lundi",
+			        "website": "http://metspause.fr/"
+			      },{
 			        "name": "Les mecs au camion",
 			        "type": "burger",
 			        "com": "",
