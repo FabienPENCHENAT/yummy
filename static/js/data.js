@@ -193,6 +193,16 @@ function getData() {
 			        "website": "http://lesmecsaucamion.com"
 			      },
 			      {
+			        "name": "Juanito Food Truck",
+			        "type": "sandwichs-argentins",
+			        "com": "",
+			        "num": "06 43 39 44 85",
+			        "address": "12 rue Michel Labrousse",
+			        "vegan": "",
+			        "day": "Lundi",
+			        "website": "https://www.facebook.com/juanitofoodtruck/"
+			      },
+			      {
 			        "name": "Chez Papilles",
 			        "type": "burger",
 			        "com": "",
@@ -453,6 +463,16 @@ function getData() {
 			        "website": "https://o-bey.fr"
 			      },
 			      {
+			        "name": "Juanito Food Truck",
+			        "type": "sandwichs-argentins",
+			        "com": "",
+			        "num": "06 43 39 44 85",
+			        "address": "Allée du lac",
+			        "vegan": "",
+			        "day": "Mardi",
+			        "website": "https://www.facebook.com/juanitofoodtruck/"
+			      },
+			      {
 			        "name": "Neko's",
 			        "type": "noodles",
 			        "com": "",
@@ -481,6 +501,36 @@ function getData() {
 			        "vegan": "",
 			        "day": "Vendredi",
 			        "website": "https://www.chezpapilles.fr"
+			      }
+			    ]
+			  },
+			  {
+			    "location": "L'Union",
+			    "foodtruck": [
+			      {
+			        "name": "Juanito Food Truck",
+			        "type": "sandwichs-argentins",
+			        "com": "",
+			        "num": "06 43 39 44 85",
+			        "address": "3 Avenue de Toulouse",
+			        "vegan": "",
+			        "day": "Mercredi",
+			        "website": "https://www.facebook.com/juanitofoodtruck/"
+			      }
+			    ]
+			  },
+			  {
+			    "location": "Saint Aubin",
+			    "foodtruck": [
+			      {
+			        "name": "Juanito Food Truck",
+			        "type": "sandwichs-argentins",
+			        "com": "",
+			        "num": "06 43 39 44 85",
+			        "address": "Bord du canal",
+			        "vegan": "",
+			        "day": "Dimanche",
+			        "website": "https://www.facebook.com/juanitofoodtruck/"
 			      }
 			    ]
 			  }
